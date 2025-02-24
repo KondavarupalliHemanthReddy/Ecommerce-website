@@ -1,0 +1,197 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+    
+}
+header{
+    background:linear-gradient(180deg,black,lightgray);
+    padding: 10px;
+    color: aliceblue;
+
+}
+nav{
+    background-color: gray;
+    padding: 10px;
+    
+}
+nav a{
+    color:white ;
+    padding:10px 30px;
+    font-size:20px;
+    text-decoration: none;
+    display: inline-block;
+}
+nav a:hover{
+    background-color:lightgray;
+    color:black;
+
+}
+.banner-section{
+    position: relative;
+    top:40px;
+    height:300px;
+    width:95%;
+    
+}
+.category-section{
+  
+    height:160px;
+    width: 100%;
+}
+.arrival-section{
+   
+    height:150px;
+    width: 100%;
+
+}
+.discount-section{
+  
+    height:150px;
+    width: 100%;
+}
+.category-section ul li{
+    list-style: none;
+    display: inline-flex;
+    width:100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    color:black;
+    border: 3px double black;
+    padding-left: 10px;
+    position: relative;
+    
+}
+
+.category-section li:hover {
+    transform: scale(1.2);
+}
+.category-section ul li img{
+    text-align: center;
+    width: 100%;
+    padding:10px;
+   
+}
+.category-section ul li span{
+   
+    position: absolute;
+    bottom:-25px;
+   
+}
+.arrival-section ul li{
+    display: inline-flex;
+    width: 220px;
+    height: 230px;
+    margin: 20px;
+    margin-bottom:38px;
+    list-style: none;
+    flex-direction: column;
+}
+
+.sub-section ul{
+    position: relative;
+    bottom:-30px;
+}
+.arrival-section ul li span {
+    font-size: small;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color:black;
+}
+.sub-section ul li img{
+    width: 100%;
+   
+    margin-left: 10px;
+}
+.sub-section li:hover{
+    transform: scale(1.2);
+   
+} 
+.banner-2{
+    position:relative;
+    top:480px;
+    width:95%;
+}
+.discount-section {
+    position: relative;
+    top:460px;
+    margin: 25px;
+}
+.discount-section img{
+    width:200px;
+    height: 200px;
+    margin-left:10px;
+}
+.footer{
+    width:95%;
+    min-width: 100vw;
+    position: relative;
+    top:890px;
+}
+.productimg{
+    height:550px;
+    width:680px;
+    border: 2px solid black;
+    position: relative;
+    top:0px;
+}
+.productimg img{
+   margin-left:50px;
+    width:500px;
+    height: 500px;
+    
+   
+}
+
+.productdetails{
+    position:absolute;
+    height:550px;
+    width:670px;
+    top:120px;
+    right:0px;
+    border: 2px solid black;
+}
+.productdetails ul{
+    margin:30px;
+    padding:30px;
+    list-style:none;
+}
+.productdetails h4{
+   
+    padding:30px;
+   
+}
+.productdetails ul li{
+    
+    padding:10px;
+   
+}
+.btn1,.btn2{
+width:10rem;
+height:3rem;
+margin:20px;
+}
+.btn1{
+    background-color: blueviolet;
+}
+.btn2{
+    background-color: rgb(226, 43, 73);
+}
+.btn2:hover,.btn1:hover{
+   transform: scale(1.2);
+}
+.newarrivals h2{
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+  padding: 10px;
+  height: 70px;
+  border: 2px solid blue;
+ display: flex;
+}
